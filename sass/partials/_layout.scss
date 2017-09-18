@@ -1,0 +1,27 @@
+/*General Structure*/
+/*Importing layout variables*/
+@import	"partials/variables";
+@import "partials/text";
+@import "partials/borders";
+
+/*Header Margins*/
+header	{
+	width: $Header-width;
+	height: $Header-height;
+	position: relative;
+	ul {
+		margin: 15px;
+
+		li {
+			display: inline-block;
+			@include Button;
+		}
+	}
+}
+
+div {
+	display: inline-block;
+	width: $Div-width;
+	height: $Div-height;
+	@include BigBlue;
+}

@@ -1,0 +1,13 @@
+/*Base file to collect all variables*/
+@import "variables/colors";
+@import "variables/fonts";
+@import "variables/borders";
+
+
+div {
+	background-color: $Black;
+}
+
+* {
+	border: 3px solid $Olive;
+}

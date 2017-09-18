@@ -1,0 +1,9 @@
+/*Text modification and design*/
+@import "variables/colors";
+
+@mixin BigBlue {
+	color: $SlateBlue;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 2px 2px $Olive;
+}
