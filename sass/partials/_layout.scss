@@ -1,9 +1,9 @@
 /*General Structure*/
 /*Importing layout variables*/
-@import	"partials/variables";
+@import	"partials/sizes";
 @import "partials/text";
 @import "partials/borders";
-
+@import "partials/backgrounds";
 /*Header Margins*/
 header	{
 	width: $Header-width;
@@ -11,9 +11,9 @@ header	{
 	position: relative;
 	ul {
 		margin: 15px;
-
 		li {
 			display: inline-block;
+			@include Button;
 		}
 	}
 }

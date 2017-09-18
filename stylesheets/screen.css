@@ -92,6 +92,7 @@ div {
 /*Measurement variables for structure*/
 /*Text modification and design*/
 /*Defines border design*/
+/*Backgrounds*/
 /*Header Margins*/
 /* line 8, ../sass/partials/_layout.scss */
 header {
@@ -103,16 +104,17 @@ header {
 header ul {
   margin: 15px;
 }
-/* line 15, ../sass/partials/_layout.scss */
+/* line 14, ../sass/partials/_layout.scss */
 header ul li {
   display: inline-block;
+  background-color: #F5DEB3;
 }
 
 /* line 21, ../sass/partials/_layout.scss */
 div {
   display: inline-block;
   width: 150px;
-  height: 50px;
+  height: 100px;
   color: #6A5ACD;
   font-size: 18px;
   text-align: center;
