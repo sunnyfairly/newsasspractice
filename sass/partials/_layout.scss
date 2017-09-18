@@ -6,21 +6,27 @@
 @import "partials/backgrounds";
 /*Header Margins*/
 header	{
-	width: $Header-width;
-	height: $Header-height;
+	@include HeaderSize(500px,250px);
 	position: relative;
 	ul {
 		margin: 15px;
 		li {
 			display: inline-block;
+			@include ButtonText(15px);
+			@include ButtonSize(100px, 30px);
 			@include Button;
+			@include SolidSilver;
+			&:hover{ 
+				background-color: $Red;
+			}
 		}
 	}
 }
 
+
+
 div {
 	display: inline-block;
-	width: $Div-width;
-	height: $Div-height;
+	@include DivSize(150px,150px);
 	@include BigBlue;
 }

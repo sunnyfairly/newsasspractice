@@ -1,8 +1,19 @@
 /*Measurement variables for structure*/
-$Header-width: 500px;
-$Header-height: 250px;
 
 
-$Div-width: 150px;
-$Div-height: 100px;
+/*Header sizes*/
+@mixin HeaderSize ($Header-width, $Header-height) {
+	width: $Header-width;
+	height: $Header-height;
+}
 
+@mixin ButtonSize ($Button-width,$Button-height) {
+	width: $Button-width;
+	height: $Button-height;
+}
+
+/*Body Sizes*/
+@mixin DivSize ($Div-width, $Div-height) {
+	width: $Div-width;
+	height: $Div-height;
+}

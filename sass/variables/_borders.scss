@@ -1,1 +1,4 @@
-/*Border variables*/
+/*Border mixins*/
+@mixin SolidSilver {
+	border: 3px solid $Silver;
+}

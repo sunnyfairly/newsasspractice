@@ -76,22 +76,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*Header fonts*/
 /*Body fonts*/
 /*Footer fonts*/
-/*Border variables*/
+/*Border mixins*/
 /* line 7, ../sass/variables/_base.scss */
 div {
   background-color: #000000;
 }
 
-/* line 11, ../sass/variables/_base.scss */
-* {
-  border: 3px solid #808000;
-}
-
 /*General Structure*/
 /*Importing layout variables*/
 /*Measurement variables for structure*/
+/*Header sizes*/
+/*Body Sizes*/
 /*Text modification and design*/
+/*Header Text*/
+/*Body Text*/
 /*Defines border design*/
+/*Border mixins*/
 /*Backgrounds*/
 /*Header Margins*/
 /* line 8, ../sass/partials/_layout.scss */
@@ -100,23 +100,39 @@ header {
   height: 250px;
   position: relative;
 }
-/* line 12, ../sass/partials/_layout.scss */
+/* line 11, ../sass/partials/_layout.scss */
 header ul {
   margin: 15px;
 }
-/* line 14, ../sass/partials/_layout.scss */
+/* line 13, ../sass/partials/_layout.scss */
 header ul li {
   display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 15px;
+  width: 100px;
+  height: 30px;
   background-color: #F5DEB3;
+  border: 3px solid #C0C0C0;
+}
+/* line 19, ../sass/partials/_layout.scss */
+header ul li:hover {
+  background-color: red;
 }
 
-/* line 21, ../sass/partials/_layout.scss */
+/* line 28, ../sass/partials/_layout.scss */
 div {
   display: inline-block;
   width: 150px;
-  height: 100px;
+  height: 150px;
   color: #6A5ACD;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
   text-shadow: 2px 2px #808000;
+}
+
+/* line 10, ../sass/screen.scss */
+html {
+  font-size: 16px;
 }
